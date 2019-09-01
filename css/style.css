@@ -30,9 +30,16 @@ body{
     opacity: 0.8;
 }
 
-#home-section .fas{
-   color: 008ed6;
+#home-section .fa, #create-section .fa{
+   color: #333;
    background: white;
    padding: 5px;
    border-radius: 5px; 
+}
+
+#explore-section .fa, #share-section .fa{
+    background: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
